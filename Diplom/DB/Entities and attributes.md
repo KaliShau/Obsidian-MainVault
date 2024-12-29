@@ -65,7 +65,6 @@
     - `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP (Дата и время последнего обновления записи)
     
     - `comment_text` TEXT NOT NULL (Текст комментария)
-    - `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP (Дата и время создания комментария)
 
     - `ticket_id` INT NOT NULL (Внешний ключ к таблице Tickets)
     - `user_id` INT NOT NULL (Внешний ключ к таблице Users, ID автора комментария)
@@ -95,7 +94,6 @@
     
 	- `report_name` VARCHAR(255) NOT NULL
 	- `report_type` VARCHAR(50) NOT NULL (Например: “статистика заявок”, “анализ по сотрудникам”)
-	- `generated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 	- `report_data` JSON (или TEXT) - Содержит сгенерированные данные отчета в виде JSON или текста.
 	
 	- `user_id` INT NOT NULL (Кто сгенерировал отчет)
