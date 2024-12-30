@@ -1,5 +1,10 @@
 
-1. **Users (Пользователи):**
+Topic: [[Diplom topic]]
+Relationships: [[Relationships]]
+
+ER: [[Diplom-DB.drawio.svg]]
+
+1. **Users (Пользователи):** 
     
     - `ID` INT PRIMARY KEY AUTO_INCREMENT (Уникальный идентификатор )
     - `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP (Дата и время создания записи)
