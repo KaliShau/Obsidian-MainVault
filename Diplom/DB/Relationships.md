@@ -1,6 +1,8 @@
 
+___
 Topic: [[Diplom topic]]
 Entities: [[Entities and attributes]]
+___
 
 - **Users** 1-to-Many **Tickets** (Один клиент может создать много заявок).
 - **Users** 1-to-Many **Tickets** (Один сотрудник может выполнять много заявок).

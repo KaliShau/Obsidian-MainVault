@@ -1,8 +1,10 @@
 
+___
 Topic: [[Diplom topic]]
 Relationships: [[Relationships]]
 
-ER: [[Diplom-DB.drawio.svg]]
+ER: [[ER.svg]]
+___
 
 1. **Users (Пользователи):** 
     
@@ -26,7 +28,7 @@ ER: [[Diplom-DB.drawio.svg]]
     - `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP (Дата и время создания записи)
     - `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP (Дата и время последнего обновления записи)
     
-    - `role_name` VARCHAR(50) NOT NULL UNIQUE (Название роли: admin, asu_staff, client)
+    - `role_name` VARCHAR(50) NOT NULL UNIQUE (Название роли: Admin, ASU_staff, Сlient)
     - `description` TEXT (Описание роли)
     
 3. **Tickets (Заявки):**
