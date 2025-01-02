@@ -1,6 +1,5 @@
 
 ___
-Topic: [[Diplom topic]]
 Entities: [[Entities and attributes]]
 ___
 
