@@ -1,28 +1,28 @@
 
 ___
-Topic: [[Diplom topic]]
+App name: [[Application]]
 ___
 
 - Home (Домашний экран с навигацией и дочерними окнами; Access: All)
 
-**Navigation:**
+##### **Navigation screens:**
 
-**Authorization** (Авторизация; Access: Guest):
+###### **Authorization** (Авторизация; Access: Guest):
 - SIgn-in (Экран входа) 
 - Sign-up (Экран регистрации) 
 
-**Work** (Работа):
-- Create tickets (Экран создания заявки; Access: Client, Admin, ASU_staff) 
+###### **Work** (Работа):
+- Create ticket (Экран создания заявки; Access: Client, Admin, ASU_staff) 
 - My tickets (Экран моих созданных заявок и редактирование (редактирование названия заявки и описание); кнопка перехода к коментариям; Access: Client, Admin, ASU_staff)
 - Tickets (Экран с новыми заявками и принятие их; кнопка перехода к коментариям; Access: ASU_staff, Admin)
 - My assigned tickets (Экран с принятыми заявками и редактирование; кнопка перехода к коментариям; Access: ASU_staff, Admin)
 
-**Reports** (Отчеты; Access: ASU_staff, Admin):
+###### **Reports** (Отчеты; Access: ASU_staff, Admin):
 - Create reports (Экран создания отчетов)
 - My reports (Экран с созданными мной отчетами и кнопка перехода к их редактированию)
 - All reports (Экран со всеми отчетами и фильтрами; если пользователь является админом, то включить кнопку управления отчетами)
 
-**Administration** (Администрирование; Access: Admin):
+###### **Administration** (Администрирование; Access: Admin):
 - Users (Управление пользователями, навигация и дочернии окна):
 	- All users (Экран с пользователями и фильтрами и кнопка перехода к редактированию)
 	- Create users  (Экран создания пользователей)
@@ -43,7 +43,7 @@ ___
 	- Create Departments  (Экран создания отделов)
 	- View, update and delete Departments (Экран редактирования и удаления отделов)
 
-**Not navigation screens:**
+##### **Not navigation screens:**
 
 - Comments for tickets (Экран с коментариями к выбранной заявке и кнопка перехода к редактированию; Access: Client, Admin, ASU_staff)
 - Create comments (Экран создания комантариев; Access: Client, Admin, ASU_staff)
@@ -51,3 +51,7 @@ ___
 - Update and delete users (Экран редактирования и удаления пользователей; Access: Admin)
 - Update and delete tickets (Экран редактирования и удаления заявок; Access: Admin)
 - Update and delete reports (Экран редактирования и удаления отчетов; Access: ASU_staff, Admin)
+- Edit my profile (Изменение моего профиля)
+- My statistics (Моя статистика)
+- Settings DB (Настройка БД)
+- Settings system (Настройки системв)

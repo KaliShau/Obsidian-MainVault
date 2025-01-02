@@ -4,6 +4,7 @@ Topic: [[Diplom topic]]
 Relationships: [[Relationships]]
 
 ER: [[ER.svg]]
+![[ER.svg]]
 ___
 
 1. **Users (Пользователи):** 
