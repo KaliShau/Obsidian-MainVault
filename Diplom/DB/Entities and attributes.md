@@ -48,6 +48,7 @@ ___
 	- `priority_id` INT NOT NULL (Внешний ключ к таблице Priorities)
 	- `status_id` INT NOT NULL (Внешний ключ к таблице Statuses)
     - `assigned_to` INT (Внешний ключ к таблице Users, ID сотрудника АСУ, которому назначена заявка, может быть NULL)
+    
 4. **Statuses (Статусы заявок):**
     
     - `ID` INT PRIMARY KEY AUTO_INCREMENT (Уникальный идентификатор )
