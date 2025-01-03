@@ -3,17 +3,17 @@ ___
 App name: [[Application]]
 ___
 
-- Home (Домашний экран с навигацией и дочерними окнами; Access: All)
+- Home (Домашний экран с навигацией и дочерними окнами; Access: All) [[Home auth.png]] [[Home all.png]]
 
 ##### **Navigation screens:**
 
 ###### **Authorization** (Авторизация; Access: Guest):
-- SIgn-in (Экран входа) 
-- Sign-up (Экран регистрации) 
+- SIgn-in (Экран входа)  [[SignIn.png]]
+- Sign-up (Экран регистрации)  [[SignUp.png]]
 
 ###### **Work** (Работа):
-- Create ticket (Экран создания заявки; Access: Client, Admin, ASU_staff) 
-- My tickets (Экран моих созданных заявок и редактирование (редактирование названия заявки и описание); кнопка перехода к коментариям; Access: Client, Admin, ASU_staff)
+- Create ticket (Экран создания заявки; Access: Client, Admin, ASU_staff) [[Create ticket.png]]
+- My tickets (Экран моих созданных заявок; Access: Client, Admin, ASU_staff) [[My create tickets.png]]
 - Tickets (Экран с новыми заявками и принятие их; кнопка перехода к коментариям; Access: ASU_staff, Admin)
 - My assigned tickets (Экран с принятыми заявками и редактирование; кнопка перехода к коментариям; Access: ASU_staff, Admin)
 
@@ -51,7 +51,7 @@ ___
 - Update and delete users (Экран редактирования и удаления пользователей; Access: Admin)
 - Update and delete tickets (Экран редактирования и удаления заявок; Access: Admin)
 - Update and delete reports (Экран редактирования и удаления отчетов; Access: ASU_staff, Admin)
-- Edit my profile (Изменение моего профиля)
-- My statistics (Моя статистика)
-- Settings DB (Настройка БД)
-- Settings system (Настройки системв)
+- Edit my profile (Изменение моего профиля; Access: Client, ASU_staff, Admin)
+- My statistics (Моя статистика; Access: Client, ASU_staff, Admin)
+- Settings DB (Настройка БД; Access: All)
+- Update ticket (Редактирование заявок клиентом; Access: Client, ASU_staff, Admin)
