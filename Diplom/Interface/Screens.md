@@ -14,8 +14,8 @@ ___
 ###### **Work** (Работа):
 - Create ticket (Экран создания заявки; Access: Client, Admin, ASU_staff) [[Create ticket.png]]
 - My tickets (Экран моих созданных заявок; Access: Client, Admin, ASU_staff) [[My create tickets.png]]
-- Tickets (Экран с новыми заявками и принятие их; кнопка перехода к коментариям; Access: ASU_staff, Admin)
-- My assigned tickets (Экран с принятыми заявками и редактирование; кнопка перехода к коментариям; Access: ASU_staff, Admin)
+- Available  tickets (Экран с новыми заявками и принятие их; Access: ASU_staff, Admin) [[Available tickets.png]]
+- My assigned tickets (Экран с принятыми заявками; Access: ASU_staff, Admin) [[My assigned tickets.png]]
 
 ###### **Reports** (Отчеты; Access: ASU_staff, Admin):
 - Create reports (Экран создания отчетов)
@@ -49,9 +49,9 @@ ___
 - Create comments (Экран создания комантариев; Access: Client, Admin, ASU_staff)
 - Update and delete comments (Экран редакирования и удаления коментариев; Access: Client, Admin, ASU_staff)
 - Update and delete users (Экран редактирования и удаления пользователей; Access: Admin)
-- Update and delete tickets (Экран редактирования и удаления заявок; Access: Admin)
+- Update tickets admin (Экран редактирования заявок; Access: ASU_staff, Admin)
 - Update and delete reports (Экран редактирования и удаления отчетов; Access: ASU_staff, Admin)
 - Edit my profile (Изменение моего профиля; Access: Client, ASU_staff, Admin)
 - My statistics (Моя статистика; Access: Client, ASU_staff, Admin)
 - Settings DB (Настройка БД; Access: All)
-- Update ticket (Редактирование заявок клиентом; Access: Client, ASU_staff, Admin)
+- Update ticket client (Редактирование заявок клиентом; Access: Client, ASU_staff, Admin)
