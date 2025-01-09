@@ -9,3 +9,6 @@ Height: 763
 ##### Size widgets:
 Width: 1094
 Height: 745 (no change)
+##### Size dialog widgets:
+Width: 500
+Height: 200
