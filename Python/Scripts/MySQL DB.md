@@ -4,7 +4,7 @@ ___
 ```
 import mysql.connector
 ```
-##### Код для создания коннекта к БД:
+##### Connect to DB example:
 ```
 def connect(self):
 	try:
@@ -45,8 +45,28 @@ def connect(self):
 		
 	except mysql.connector.Error as err:
 		logging.error(f'Ошибка подключения к базе данных: {err}')
-		
+		dialog.show(f'Ошибка подключения к базе данных: {err}')
 		self.conn = None
 		
 		return False
+```
+##### SQL query example:
+```
+def create_ticket(self, title, desc, client_id, priority, status):
+	if self.conn:
+		cursor = self.conn.cursor()
+		
+		try:
+			
+			cursor.execute(sql.create_ticket, (title, desc, client_id, priority, status))
+			self.conn.commit()
+			
+			dialog.show('Заявка успешно добавлена.')
+			
+			return True
+		except mysql.connector.Error as err:
+			logging.error('Ошибка при выполнении запроса.')
+			dialog.show(f'Ошибка при выполнении запроса: {err}')
+			
+			return False
 ```
