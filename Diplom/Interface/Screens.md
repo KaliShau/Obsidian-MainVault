@@ -55,3 +55,5 @@ ___
 - My statistics (Моя статистика; Access: Client, ASU_staff, Admin)
 - Settings DB (Настройка БД; Access: All)
 - Update ticket client (Редактирование заявок клиентом; Access: Client, ASU_staff, Admin)
+- Update ticket (Редактирование заявок работниками; Access: ASU_staff, Admin)
+- Dialog (Окно вывода уведомлений; Access: All) [[Dialog.png]]
