@@ -45,15 +45,12 @@ ___
 
 ##### **Not navigation screens:**
 
-- Comments for tickets (Экран с коментариями к выбранной заявке и кнопка перехода к редактированию; Access: Client, Admin, ASU_staff)
-- Create comments (Экран создания комантариев; Access: Client, Admin, ASU_staff)
+- My ticket and comments for tickets (Экран с заявкой, с коментариями и  создание коментариев; Access: Client, Admin, ASU_staff) [[My ticket and comments for ticket.png]]
 - Update and delete comments (Экран редакирования и удаления коментариев; Access: Client, Admin, ASU_staff)
 - Update and delete users (Экран редактирования и удаления пользователей; Access: Admin)
-- Update tickets admin (Экран редактирования заявок; Access: ASU_staff, Admin)
 - Update and delete reports (Экран редактирования и удаления отчетов; Access: ASU_staff, Admin)
 - Edit my profile (Изменение моего профиля; Access: Client, ASU_staff, Admin)
 - My statistics (Моя статистика; Access: Client, ASU_staff, Admin)
-- Settings DB (Настройка БД; Access: All)
-- Update ticket client (Редактирование заявок клиентом; Access: Client, ASU_staff, Admin)
+- Settings DB (Настройка БД; Access: Guest)
 - Update ticket (Редактирование заявок работниками; Access: ASU_staff, Admin)
 - Dialog (Окно вывода уведомлений; Access: All) [[Dialog.png]]
