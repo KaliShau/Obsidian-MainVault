@@ -70,3 +70,11 @@ def create_ticket(self, title, desc, client_id, priority, status):
 			
 			return False
 ```
+##### Disconnect to DB example:
+```
+def disconnect(self):
+	if self.conn:
+		self.conn.close()
+		self.conn = None
+		logging.info('Подключение закрыто')
+```

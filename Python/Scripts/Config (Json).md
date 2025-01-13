@@ -10,16 +10,16 @@ def load_config(self):
 #### Save config:
 ```
 def save_config(self, password, user, host, port, db):
-config = self.load_config()
-
-config['database']['password'] = password
-config['database']['user'] = user
-config['database']['host'] = host
-config['database']['port'] = port
-config['database']['dbname'] = db
-
-with open('config.json', 'w') as file:
-json.dump(config, file, indent=5)
+	config = self.load_config()
+	
+	config['database']['password'] = password
+	config['database']['user'] = user
+	config['database']['host'] = host
+	config['database']['port'] = port
+	config['database']['dbname'] = db
+	
+	with open('config.json', 'w') as file:
+		json.dump(config, file, indent=5)
 ```
 #### Create config if not exists:
 ```
