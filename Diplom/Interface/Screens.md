@@ -27,8 +27,8 @@ ___
 	- All users (Экран с пользователями и кнопка перехода к редактированию) [[All users.png]]
 	- Create user  (Экран создания пользователя) [[Create user.png]]
 - Roles (Управление ролями, навигация и дочернии окна):
-	- Create roles  (Экран создания ролей)
-	- View, update and delete roles (Экран редактирования и удаления ролей)
+	- All roles (Экран с ролями и кнопка перехода к редактированию) [[All roles.png]]
+	- Create roles  (Экран создания роли) [[Create role.png]]
 - Tickets (Управление заявками, навигация и дочернии окна):
 	- All tickets (Экран с заявками и фильтрами и кнопка перехода к редактированию)
 - Statuses (Управление статусами, навигация и дочернии окна):
@@ -40,16 +40,17 @@ ___
 - Comments (Управление коментариями, навигация и дочернии окна):
 	- All comments (Экран с коментариями и фильтры и кнопка перехода к редактированию)
 - Departments (Управление отделами, навигация и дочернии окна):
-	- Create Departments  (Экран создания отделов)
-	- View, update and delete Departments (Экран редактирования и удаления отделов)
+	- Create Departments  (Экран создания отделов) [[Create department.png]]
+	- All departments (Экран с отделами и кнопка перехода к редактированию) [[All departments.png]]
 
 ##### **Not navigation screens:**
 
 - My ticket and comments for tickets (Экран с заявкой, с коментариями и  создание коментариев; Access: Client, Admin, ASU_staff) [[My ticket and comments for ticket.png]]
-- Update  comments (Экран редакирования и удаления коментариев; Access: Client, Admin, ASU_staff)
-- Update users (Экран редактирования и удаления пользователей; Access: Admin)
-- Edit my profile (Изменение моего профиля; Access: Client, ASU_staff, Admin)
-- Update and delete reports (Экран редактирования и удаления отчетов; Access: ASU_staff, Admin)
+- Update roles (Экран редактирования ролей; Access: Admin) [[Update role.png]]
+- Update users (Экран редактирования пользователей; Access: Admin) [[Update user.png]]
+- Edit my profile (Изменение моего профиля; Access: Client, ASU_staff, Admin) [[Update profile.png]]
+- Update department (Экран редактирования отделов; Access: ASU_staff, Admin) [[Update department.png]]
+- Update reports (Экран редактирования отчетов; Access: ASU_staff, Admin)
 - My statistics (Моя статистика; Access: Client, ASU_staff, Admin)
 - Settings DB (Настройка БД; Access: Guest) [[Settings DB.png]]
 - Update ticket (Редактирование заявок работниками; Access: ASU_staff, Admin) [[Update ticket.png]]
