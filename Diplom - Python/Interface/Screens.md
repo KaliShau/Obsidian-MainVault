@@ -1,9 +1,9 @@
 
 ___
-App name: [[Application]]
+App: [[Application - Python|Application - Python]]
 ___
 
-- Home (Домашний экран с навигацией и дочерними окнами; Access: All) [[Home auth.png]] [[Home all.png]]
+- Home (Домашний экран с навигацией и дочерними окнами; Access: All) [[Home auth.png]] 
 
 ##### **Navigation screens:**
 
