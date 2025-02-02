@@ -1,10 +1,9 @@
  
 ___
-Topic: [[Diplom topic]]
-Relationships: [[Relationships]]
+App: [[Application - Python|Application - Python]]
+Relationships: [[Diplom - C Sharp/DB/Relationships|Relationships]]
 
-ER: [[ER.svg]]
-![[ER.svg]]
+ER: ![[Diplom - C Sharp/DB/ER.svg]]
 ___
 
 1. **Users (Пользователи):** 

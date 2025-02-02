@@ -2,8 +2,8 @@
 ___
 
 Main colors: [[Main colors]]
-Base type roles: [[Base types roles]]
-Base type statuses: [[Base types statuses]]
+Base type roles: [[Diplom - Python/App settings/Managment/Base types roles]]
+Base type statuses: [[Diplom - Python/App settings/Managment/Base types statuses]]
 ___
 ##### Size main window:
 Width: 1440

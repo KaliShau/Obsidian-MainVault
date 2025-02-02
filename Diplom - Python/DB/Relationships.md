@@ -1,6 +1,6 @@
 
 ___
-Entities: [[Entities and attributes]]
+Entities: [[Diplom - Python/DB/Entities and attributes]]
 ___
 
 - **Users** 1-to-Many **Tickets** (Один клиент может создать много заявок).
