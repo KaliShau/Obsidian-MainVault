@@ -28,7 +28,7 @@ sudo nano /etc/httpd/conf/httpd.conf
 sudo nano /etc/php/php.ini
 extension=mysqli
 ```
-##### Install database: [[Install MariaDB]]
+##### Install database: [[MariaDB]]
 ##### Create database:
 ```
 CREATE DATABASE wordpress_db;
@@ -46,7 +46,7 @@ sudo unzip latest.zip -d wordpress
 ```
 ##### Set the correct access rights:
 ```
-sudo chown -R http:http /srv/http/wordpress
+sudo chown -R Shau:http /srv/http/wordpress
 ```
 ##### Create config file:
 ```
