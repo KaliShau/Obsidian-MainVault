@@ -15,3 +15,9 @@ mysql -u root -p
 ```
 mysql -u root -p
 ```
+##### Create user add grants:
+```
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON wordpress_db.* TO 'user'@'localhost';
+FLUSH PRIVILEGES;
+```
