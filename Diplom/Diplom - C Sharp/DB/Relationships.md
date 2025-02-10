@@ -1,6 +1,6 @@
 
 ___
-Entities: [[Diplom - C Sharp/DB/Entities and attributes|Entities and attributes]]
+Entities: [[Diplom/Diplom - C Sharp/DB/Entities and attributes|Entities and attributes]]
 ___
 
 - **Users** 1-to-Many **Tickets** (Один клиент может создать много заявок).

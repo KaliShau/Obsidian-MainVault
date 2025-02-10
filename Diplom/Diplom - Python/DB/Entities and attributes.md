@@ -1,10 +1,10 @@
  
 ___
 App: [[Application - Python|Application - Python]]
-Relationships: [[Diplom - Python/DB/Relationships]]
+Relationships: [[Diplom/Diplom - Python/DB/Relationships]]
 
-ER: [[Diplom - Python/DB/ER.svg]]
-![[Diplom - Python/DB/ER.svg]]
+ER: [[Diplom/Diplom - Python/DB/ER.svg]]
+![[Diplom/Diplom - Python/DB/ER.svg]]
 ___
 
 1. **Users (Пользователи):** 
