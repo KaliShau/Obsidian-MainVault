@@ -1,6 +1,14 @@
 
 ___
 ```
+-- Таблица Roles (Роли)
+CREATE TABLE Roles (
+    ID SERIAL PRIMARY KEY,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    name VARCHAR(50) NOT NULL UNIQUE,
+    description TEXT
+);
+
 -- Таблица Users (Пользователи)
 CREATE TABLE Users (
     ID SERIAL PRIMARY KEY,
@@ -12,25 +20,7 @@ CREATE TABLE Users (
     email VARCHAR(100) UNIQUE,
     phone_number VARCHAR(20),
     role_id INT NOT NULL,
-    CONSTRAINT fk_role
-        FOREIGN KEY (role_id)
-        REFERENCES Roles(ID)
-);
-
--- Таблица Roles (Роли)
-CREATE TABLE Roles (
-    ID SERIAL PRIMARY KEY,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    name VARCHAR(50) NOT NULL UNIQUE,
-    description TEXT
-);
-
--- Таблица TypesWorks (Типы работ)
-CREATE TABLE TypesWorks (
-    ID SERIAL PRIMARY KEY,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    type VARCHAR(50) NOT NULL UNIQUE,
-    description TEXT
+    FOREIGN KEY (role_id) REFERENCES Roles(ID)
 );
 
 -- Таблица Statements (Заявления)
@@ -39,20 +29,12 @@ CREATE TABLE Statements (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FIO TEXT NOT NULL,
     address TEXT NOT NULL,
-    type_work_id INT NOT NULL,
-    CONSTRAINT fk_type_work
-        FOREIGN KEY (type_work_id)
-        REFERENCES TypesWorks(ID)
+    type_work TEXT NOT NULL
 );
 
 -- Добавление ролей
 INSERT INTO Roles (name, description) VALUES
 ('Admin', 'Администратор системы'),
-('Operator', 'Сотрудник');
-
--- Добавление типов работ
-INSERT INTO TypesWorks (type, description) VALUES
-('Ремонт', 'Ремонтные работы'),
-('Установка', 'Установка оборудования'),
-('Обслуживание', 'Техническое обслуживание');
+('Operator', 'Сотрудник'),
+('Client', 'Клиент');
 ```
