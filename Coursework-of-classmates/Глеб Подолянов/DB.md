@@ -22,18 +22,11 @@ ___
     - `name` VARCHAR(50) NOT NULL UNIQUE (Название роли: Admin, ASU_staff, Сlient)
     - `description` TEXT (Описание роли)
     
-3. **TypesWorks (Роли):**
     
-    - `ID` INT PRIMARY KEY AUTO_INCREMENT (Уникальный идентификатор )
-    - `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP (Дата и время создания записи)
-    
-    - `type` VARCHAR(50) NOT NULL UNIQUE (Название роли: Admin, ASU_staff, Сlient)
-    - `description` TEXT (Описание роли)
-    
-4. **Statements (Заявление):**
+3. **Statements (Заявление):**
     - `ID` INT PRIMARY KEY AUTO_INCREMENT (Уникальный идентификатор )
     - `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP (Дата и время создания записи)
 	
 	- FIO TEXT NOT NULL (ФИО заявителя)
 	- address TEXT NOT NULL (Адресс где должна проводится работа)
-	- type_work_id INT NOT NULL  (Внешний ключ к таблице TypesWorks)
+	- type_work TEXT NOT NULL   (Тип работы)
