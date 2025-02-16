@@ -1,7 +1,7 @@
 
 ___
-##### DB: [[DB]]
-##### SQL: [[Sql]]
+##### DB: [[Coursework-of-classmates/Глеб Подолянов/DB]]
+##### SQL: [[Coursework-of-classmates/Глеб Подолянов/Sql]]
 ___
 ##### Users:
 - Гость
