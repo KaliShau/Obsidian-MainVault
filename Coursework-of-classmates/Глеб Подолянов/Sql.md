@@ -15,8 +15,8 @@ CREATE TABLE Users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     login VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
-    first_name VARCHAR(50),
-    last_name VARCHAR(50),
+    
+    fio VARCHAR(50),
     email VARCHAR(100) UNIQUE,
     phone_number VARCHAR(20),
     role_id INT NOT NULL,
