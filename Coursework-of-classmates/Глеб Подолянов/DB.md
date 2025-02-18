@@ -30,3 +30,12 @@ ___
 	- FIO TEXT NOT NULL (ФИО заявителя)
 	- address TEXT NOT NULL (Адресс где должна проводится работа)
 	- type_work TEXT NOT NULL   (Тип работы)
+	- types_work_id INT NOT NULL (Внешний ключ к таблице TypesWork)
+	
+4. **TypesWork (Роли):**
+    
+    - `ID` INT PRIMARY KEY AUTO_INCREMENT (Уникальный идентификатор )
+    - `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP (Дата и время создания записи)
+    
+    - `name` VARCHAR(50) NOT NULL UNIQUE (Типы работ)
+    - `description` TEXT (Описание работ)

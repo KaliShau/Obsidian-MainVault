@@ -1,63 +1,60 @@
 
 ___
 ```
-public partial class MainForm : Form
+DataTable user;
+private string _selectedRequestId;
+
+public AllRequests(DataTable dt)
 {
-    public MainForm()
+    InitializeComponent();
+    this.user = dt;
+
+    DatabaseManager db = new DatabaseManager();
+    dataGridView1.DataSource = db.getRequests();
+
+
+
+}
+
+private void DataGridView1_MouseClick(object sender, MouseEventArgs e)
+{
+    if (e.Button == MouseButtons.Right)
     {
-        InitializeComponent();
+        // Определяем, по какой строке и столбцу был клик
+        var hitTest = dataGridView1.HitTest(e.X, e.Y);
 
-        // Привязываем контекстное меню к DataGridView
-        dataGridView1.ContextMenuStrip = contextMenuStrip1;
-
-        // Подписываемся на событие клика правой кнопкой мыши
-        dataGridView1.MouseClick += DataGridView1_MouseClick;
-
-        // Подписываемся на событие клика по кнопке в контекстном меню
-        copyToolStripMenuItem.Click += CopyToolStripMenuItem_Click;
-    }
-
-    private void DataGridView1_MouseClick(object sender, MouseEventArgs e)
-    {
-        // Проверяем, что клик был правой кнопкой мыши
-        if (e.Button == MouseButtons.Right)
+        if (hitTest.RowIndex >= 0 && hitTest.ColumnIndex >= 0)
         {
-            // Получаем строку, по которой был клик
-            var hitTest = dataGridView1.HitTest(e.X, e.Y);
+            // Выделяем строку
+            dataGridView1.Rows[hitTest.RowIndex].Selected = true;
 
-            if (hitTest.RowIndex >= 0) // Если клик был по строке
-            {
-                // Выделяем строку
-                dataGridView1.Rows[hitTest.RowIndex].Selected = true;
+            // Получаем значение столбца "request_id"
+            this._selectedRequestId = dataGridView1.Rows[hitTest.RowIndex].Cells[0].Value?.ToString();
 
-                // Показываем контекстное меню
-                contextMenuStrip1.Show(dataGridView1, e.Location);
-            }
+            // Показываем контекстное меню
+            contextMenuStrip1.Show(dataGridView1, e.Location);
         }
     }
 
-    private void CopyToolStripMenuItem_Click(object sender, EventArgs e)
+
+}
+
+private void CopyToolStripMenuItem_Click(object sender, EventArgs e)
+{
+    if (!string.IsNullOrEmpty(_selectedRequestId))
     {
-		if (dataGridView1.SelectedRows.Count > 0)
-		{
-		    var selectedRow = dataGridView1.SelectedRows[0];
-		
-		    // Получаем значение столбца "request_id"
-		    var requestId = selectedRow.Cells["request_id"].Value?.ToString();
-		
-		    if (!string.IsNullOrEmpty(requestId))
-		    {
-		        MessageBox.Show($"Скопировано request_id: {requestId}");
-		    }
-		    else
-		    {
-		        MessageBox.Show("Значение request_id отсутствует.");
-		    }
-		}
-		else
-		{
-		    MessageBox.Show("Строка не выбрана.");
-		}
-	}
+        try
+        {
+            MessageBox.Show($"Запрос с ID: {_selectedRequestId} принят.");
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Ошибка при принятии запроса: {ex.Message}");
+        }
+    }
+    else
+    {
+        MessageBox.Show("Не выбран request_id.");
+    }
 }
 ```
