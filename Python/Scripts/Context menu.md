@@ -1,7 +1,7 @@
 
 ___
 ##### Create context menu example:
-```
+```Python
 def __init__:
 	tableView.setContextMenuPolicy(Qt.ContextMenuPolicy.CustomContextMenu)
 	tableView.customContextMenuRequested.connect(self.showContextMenu)

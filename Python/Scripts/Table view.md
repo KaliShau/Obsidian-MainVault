@@ -1,7 +1,7 @@
 
 ___
 ##### Load data in table view:
-```
+```Python
 def load(headers, table, data):
 	model = QStandardItemModel()
 	model.setHorizontalHeaderLabels(headers)

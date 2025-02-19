@@ -1,8 +1,7 @@
 
 ___
-```
-\! chcp 1251
-
+##### Tables:
+```SQL
 -- Таблица Statuses
 CREATE TABLE Statuses (
     status_id SERIAL PRIMARY KEY,
@@ -43,7 +42,6 @@ CREATE TABLE Reports (
     FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
 );
 ```
-
 ##### Statuses:
 ```
 INSERT INTO Statuses (status_name) VALUES 
