@@ -1,14 +1,14 @@
 
 ___
 #### Load config:
-```
+```Python
 def load_config(self):
 	with open('config.json', 'r') as file:
 		config = json.load(file)
 	return config
 ```
 #### Save config:
-```
+```Python
 def save_config(self, password, user, host, port, db):
 	config = self.load_config()
 	
@@ -22,7 +22,7 @@ def save_config(self, password, user, host, port, db):
 		json.dump(config, file, indent=5)
 ```
 #### Create config if not exists:
-```
+```Python
 def create_config(self):
 if not os.path.exists('config.json'):
 

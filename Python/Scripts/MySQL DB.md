@@ -1,11 +1,11 @@
 
 ___
 ##### Для подключения к бд MySQL нужен:
-```
+```Python
 import mysql.connector
 ```
 ##### Connect to DB example:
-```
+```Python
 def connect(self):
 	try:
 		logging.info('Попытка подключения к базе данных...')
@@ -51,7 +51,7 @@ def connect(self):
 		return False
 ```
 ##### SQL query example:
-```
+```Python
 def create_ticket(self, title, desc, client_id, priority, status):
 	if self.conn:
 		cursor = self.conn.cursor()
@@ -71,7 +71,7 @@ def create_ticket(self, title, desc, client_id, priority, status):
 			return False
 ```
 ##### Disconnect to DB example:
-```
+```Python
 def disconnect(self):
 	if self.conn:
 		self.conn.close()
