@@ -8,8 +8,8 @@ ___
 ##### **Navigation screens:**
 
 ###### **Authorization** (Авторизация; Access: Guest):
-- SIgn-in (Экран входа)  [[SignIn.png]]
-- Sign-up (Экран регистрации)  [[SignUp.png]]
+- SIgn-in (Экран входа)  [[Work/Diplom 2025/Diplom - Python/Interface/assets/SignIn.png]]
+- Sign-up (Экран регистрации)  [[Work/Diplom 2025/Diplom - Python/Interface/assets/SignUp.png]]
 
 ###### **Work** (Работа):
 - Create ticket (Экран создания заявки; Access: Client, Admin, ASU_staff) [[Create ticket.png]]
@@ -24,7 +24,7 @@ ___
 
 ###### **Administration** (Администрирование; Access: Admin):
 - Users (Управление пользователями, навигация и дочернии окна):
-	- All users (Экран с пользователями и кнопка перехода к редактированию) [[All users.png]]
+	- All users (Экран с пользователями и кнопка перехода к редактированию) [[Work/Diplom 2025/Diplom - Python/Interface/assets/All users.png]]
 	- Create user  (Экран создания пользователя) [[Create user.png]]
 - Roles (Управление ролями, навигация и дочернии окна):
 	- All roles (Экран с ролями и кнопка перехода к редактированию) [[All roles.png]]

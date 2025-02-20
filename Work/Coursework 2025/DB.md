@@ -1,5 +1,7 @@
 
 ___
+ER: [[Work/Coursework 2025/assets/ER.png]]
+___
 1. **Users**:
      
     - `user_id` - уникальный идентификатор пользователя.
