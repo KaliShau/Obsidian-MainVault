@@ -10,9 +10,12 @@ ___
 - **Guest** - Имеет доступ только для просмотра данных.
 
 ##### Screens:
-- Home form (Форма с поиском и таблицей активности учащихся)
+- Home form (Форма с поиском и таблицей активности учащихся) [[Home.png]] [[Home with auth.png]] [[Search.png]]
 - SignIn (Авторизация)
-- Create and view students (Студенты)
-- Create and view events (События)
-- Create and view Participation (Активность)
-- Create and view Users (Пользователи)
+- Create and view students (Студенты) [[Students.png]]
+- Create and view events (События) [[Events.png]]
+- Create and view Participation (Активность) [[Participations.png]]
+- Create and view Users (Пользователи) [[Users.png]]
+
+##### pgAdmin:
+- Sudents [[pgAdmin - students.png]]

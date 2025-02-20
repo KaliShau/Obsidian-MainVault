@@ -1,5 +1,7 @@
 
 ___
+ER: [[Work/Coursework-of-classmates 2025/Летунов Захар/assets/ER.png]]
+___
 1. **Таблица `users` (Пользователи)**
     
     - `id` (SERIAL, PRIMARY KEY) - уникальный идентификатор пользователя.

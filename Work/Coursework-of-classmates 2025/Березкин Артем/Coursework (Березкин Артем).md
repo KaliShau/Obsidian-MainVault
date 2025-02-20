@@ -9,9 +9,9 @@ ___
 2. **Оператор системы** — может просматривать и редактировать данные, но не может удалять записи или изменять структуру базы данных.
 3. **Клиент** — может отправлять запрос
 ##### Screens:
- - Sign-in
- - Sign-up
- - Create and view request
- - Create and view suppliers
- - Create and view materials
- - Create and view users
+ - Sign-in [[Work/Coursework-of-classmates 2025/Березкин Артем/assets/SignIn.png]]
+ - Sign-up [[Work/Coursework-of-classmates 2025/Березкин Артем/assets/SignUp.png]]
+ - Create and view request [[Work/Coursework-of-classmates 2025/Березкин Артем/assets/Create requests.png]] [[Create and view requests.png]]
+ - Create and view suppliers [[Create and view suppliers.png]]
+ - Create and view materials [[Create and view materials.png]]
+ - Create and view users [[Create and view users.png]]
