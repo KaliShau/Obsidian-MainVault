@@ -11,7 +11,7 @@ ___
 
 ##### Screens:
 - Home form (Форма с поиском и таблицей активности учащихся) [[Home.png]] [[Home with auth.png]] [[Search.png]]
-- SignIn (Авторизация)
+- SignIn (Авторизация) [[Work/Coursework-of-classmates 2025/Летунов Захар/Sql|Sql]]
 - Create and view students (Студенты) [[Students.png]]
 - Create and view events (События) [[Events.png]]
 - Create and view Participation (Активность) [[Participations.png]]
