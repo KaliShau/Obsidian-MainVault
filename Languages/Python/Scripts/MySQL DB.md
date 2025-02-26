@@ -17,9 +17,7 @@ def connect(self):
 			port = config_data['database']['port'],
 			user = config_data['database']['user'] ,
 			password = config_data['database']['password'],
-			database = config_data['database']['dbname'],
-			charset="utf8mb4",
-			collation="utf8mb4_unicode_ci"
+			database = config_data['database']['dbname']
 		)
 		
 		logging.info('Успешное подключение к базе данных.')

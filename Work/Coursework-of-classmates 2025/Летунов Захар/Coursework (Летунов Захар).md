@@ -12,10 +12,10 @@ ___
 ##### Screens:
 - Home form (Форма с поиском и таблицей активности учащихся) [[Home.png]] [[Home with auth.png]] [[Search.png]]
 - SignIn (Авторизация) [[Work/Coursework-of-classmates 2025/Летунов Захар/Sql|Sql]]
-- Create and view students (Студенты) [[Students.png]]
+- Create and view students (Студенты) [[Work/Coursework-of-classmates 2025/Летунов Захар/assets/Students.png]]
 - Create and view events (События) [[Events.png]]
 - Create and view Participation (Активность) [[Participations.png]]
-- Create and view Users (Пользователи) [[Users.png]]
+- Create and view Users (Пользователи) [[Work/Coursework-of-classmates 2025/Летунов Захар/assets/Users.png]]
 
 ##### pgAdmin:
 - Sudents [[pgAdmin - students.png]]
