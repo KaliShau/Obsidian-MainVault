@@ -43,7 +43,7 @@ CREATE TABLE Reports (
 );
 ```
 ##### Statuses:
-```
+```SQL
 INSERT INTO Statuses (status_name) VALUES 
 	('Новая'),
 	('Принята'),
