@@ -1,7 +1,7 @@
 
 ___
 ##### Config:
-```Prettier
+```JSON
 Create file: .prettierrc
 {
 	"trailingComma": "es5",
