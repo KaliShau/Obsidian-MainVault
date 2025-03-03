@@ -9,3 +9,8 @@ ___
 - JwtModule: [[JwtModule]]
 - JwtConfig: [[JwtConfig]]
 - CookieService: [[CookieService]]
+- AuthDecorator: [[AuthDecorator]]
+- AuthGuard: [[AuthGuard]]
+- JwtStrategy: [[JwtStrategy]]
+- UserDecorator: [[UserDecrator]]
+- ServeStaticModule: [[ServeStaticModule]]
