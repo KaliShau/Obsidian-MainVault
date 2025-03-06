@@ -22,3 +22,4 @@ ___
 
 ##### Next js:
 - Middleware: [[Middleware]]
+- Infinite scroll: [[Infinite scroll with react query]]
