@@ -23,3 +23,7 @@ ___
 ##### Next js:
 - Middleware: [[Middleware]]
 - Infinite scroll: [[Infinite scroll with react query]]
+- Api helpers: [[Api helpers]]
+- Config routes example: [[Config routes example]]
+- Next js config: [[Next js config]]
+- 
