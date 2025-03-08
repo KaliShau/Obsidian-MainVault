@@ -1,91 +1,120 @@
 
 ___
-##### Use prisma: 
-```D
-model Users {
-	id String @id @default(uuid())
-	createdAt DateTime @default(now()) @map("created_at")
-	updatedAt DateTime @updatedAt @map("updated_at")
-	
-	username String @unique
-	password_hash String
-	
-	firstName String @default("No first name") @map("first_name")
-	lastName String @default("No last name") @map("last_name")
-	
-	imageUrl String @default("uploads/avatars/default.jpg") @map("image_url")
-	
-	posts Posts[]
-	sentMessages Messages[] @relation("SentMessages")
-	receivedMessages Messages[] @relation("ReceivedMessages")
-	comments Comments[]
-	likes Likes[]
-	
-	@@map("users")
-}
+### 1. **Users (Пользователи)**
 
-model Posts {
-	id String @id @default(uuid())
-	createdAt DateTime @default(now()) @map("created_at")
-	updatedAt DateTime @updatedAt @map("updated_at")
-	
-	title String
-	content String
-	
-	imageUrl String @map("image_url")
-	
-	user Users @relation(fields: [userId], references: [id])
-	userId String @map("user_id")
-	
-	comments Comments[]
-	likes Likes[]
-	
-	@@map("posts")
-}
+- **id**: Уникальный идентификатор пользователя, генерируется автоматически с помощью UUID.
+    
+- **createdAt**: Дата и время создания записи пользователя, устанавливается автоматически при создании.
+    
+- **updatedAt**: Дата и время последнего обновления записи пользователя, обновляется автоматически при изменении.
+    
+- **username**: Уникальное имя пользователя.
+    
+- **password_hash**: Хэш пароля пользователя.
+    
+- **firstName**: Имя пользователя, по умолчанию "No first name".
+    
+- **lastName**: Фамилия пользователя, по умолчанию "No last name".
+    
+- **imageUrl**: Ссылка на аватар пользователя, по умолчанию "uploads/avatars/default.jpg".
+    
+- **posts**: Связь с постами, которые создал пользователь.
+    
+- **sentMessages**: Связь с сообщениями, которые пользователь отправил.
+    
+- **receivedMessages**: Связь с сообщениями, которые пользователь получил.
+    
+- **comments**: Связь с комментариями, которые оставил пользователь.
+    
+- **likes**: Связь с лайками, которые поставил пользователь.
+    
 
-model Messages {
-	id String @id @default(uuid())
-	createdAt DateTime @default(now()) @map("created_at")
-	updatedAt DateTime @updatedAt @map("updated_at")
-	
-	content String
-	
-	sender Users @relation("SentMessages", fields: [senderId], references: [id])
-	senderId String @map("sender_id")
-	
-	receiver Users @relation("ReceivedMessages", fields: [receiverId], references: [id])
-	receiverId String @map("receiver_id")
-	
-	@@map("messages")
-}
-  
-model Comments {
-	id String @id @default(uuid())
-	createdAt DateTime @default(now()) @map("created_at")
-	updatedAt DateTime @updatedAt @map("updated_at")
-	
-	content String
-	
-	user Users @relation(fields: [userId], references: [id])
-	userId String @map("user_id")
-	
-	post Posts @relation(fields: [postId], references: [id])
-	postId String @map("post_id")
-	
-	@@map("comments")
-}
+### 2. **Posts (Посты)**
 
-model Likes {
-	id String @id @default(uuid())
-	createdAt DateTime @default(now()) @map("created_at")
-	updatedAt DateTime @updatedAt @map("updated_at")
-	
-	users Users @relation(fields: [userId], references: [id])
-	userId String @map("user_id")
-	
-	post Posts @relation(fields: [postId], references: [id])
-	postId String @map("post_id")
-	
-	@@map("likes")
-}
-```
+- **id**: Уникальный идентификатор поста, генерируется автоматически с помощью UUID.
+    
+- **createdAt**: Дата и время создания поста, устанавливается автоматически при создании.
+    
+- **updatedAt**: Дата и время последнего обновления поста, обновляется автоматически при изменении.
+    
+- **title**: Заголовок поста.
+    
+- **content**: Содержание поста.
+    
+- **imageUrl**: Ссылка на изображение, прикрепленное к посту.
+    
+- **user**: Связь с пользователем, который создал пост.
+    
+- **userId**: Идентификатор пользователя, который создал пост.
+    
+- **comments**: Связь с комментариями, оставленными под постом.
+    
+- **likes**: Связь с лайками, поставленными под постом.
+    
+
+### 3. **Messages (Сообщения)**
+
+- **id**: Уникальный идентификатор сообщения, генерируется автоматически с помощью UUID.
+    
+- **createdAt**: Дата и время создания сообщения, устанавливается автоматически при создании.
+    
+- **updatedAt**: Дата и время последнего обновления сообщения, обновляется автоматически при изменении.
+    
+- **content**: Содержание сообщения.
+    
+- **sender**: Связь с пользователем, который отправил сообщение.
+    
+- **senderId**: Идентификатор пользователя, который отправил сообщение.
+    
+- **receiver**: Связь с пользователем, который получил сообщение.
+    
+- **receiverId**: Идентификатор пользователя, который получил сообщение.
+    
+
+### 4. **Comments (Комментарии)**
+
+- **id**: Уникальный идентификатор комментария, генерируется автоматически с помощью UUID.
+    
+- **createdAt**: Дата и время создания комментария, устанавливается автоматически при создании.
+    
+- **updatedAt**: Дата и время последнего обновления комментария, обновляется автоматически при изменении.
+    
+- **content**: Содержание комментария.
+    
+- **user**: Связь с пользователем, который оставил комментарий.
+    
+- **userId**: Идентификатор пользователя, который оставил комментарий.
+    
+- **post**: Связь с постом, к которому оставлен комментарий.
+    
+- **postId**: Идентификатор поста, к которому оставлен комментарий.
+    
+
+### 5. **Likes (Лайки)**
+
+- **id**: Уникальный идентификатор лайка, генерируется автоматически с помощью UUID.
+    
+- **createdAt**: Дата и время создания лайка, устанавливается автоматически при создании.
+    
+- **updatedAt**: Дата и время последнего обновления лайка, обновляется автоматически при изменении.
+    
+- **users**: Связь с пользователем, который поставил лайк.
+    
+- **userId**: Идентификатор пользователя, который поставил лайк.
+    
+- **post**: Связь с постом, которому поставлен лайк.
+    
+- **postId**: Идентификатор поста, которому поставлен лайк.
+    
+
+### Основные связи между сущностями:
+
+- **Пользователь (Users)** может создавать множество **постов (Posts)**, оставлять **комментарии (Comments)** и ставить **лайки (Likes)**.
+    
+- **Пост (Posts)** принадлежит одному **пользователю (Users)** и может иметь множество **комментариев (Comments)** и **лайков (Likes)**.
+    
+- **Сообщение (Messages)** отправляется одним **пользователем (Users)** и получается другим **пользователем (Users)**.
+    
+- **Комментарий (Comments)** оставляется одним **пользователем (Users)** и относится к одному **посту (Posts)**.
+    
+- **Лайк (Likes)** ставится одним **пользователем (Users)** и относится к одному **посту (Posts)**.

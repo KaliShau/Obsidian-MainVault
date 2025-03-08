@@ -4,7 +4,7 @@ ___
 ##### Main:
 - Prettier: [[Prettier]]
 
-##### Nest js:
+##### Nest js: [[Nest js]]
 - ORM:
 	- Prisma: [[Prisma]]
 - JWT:
@@ -20,10 +20,10 @@ ___
 - Cookie:
 	- CookieService: [[CookieService]]
 
-##### Next js:
+##### Next js: [[Next js]]
 - Middleware: [[Middleware]]
 - Infinite scroll: [[Infinite scroll with react query]]
 - Api helpers: [[Api helpers]]
 - Config routes example: [[Config routes example]]
 - Next js config: [[Next js config]]
-- 
+- Axios: [[Axios interseprots]]
