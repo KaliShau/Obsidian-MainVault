@@ -1,6 +1,8 @@
 
 ___
-##### Для подключения к бд MySQL нужен:
+
+___
+##### Library:
 ```Python
 import mysql.connector
 ```
