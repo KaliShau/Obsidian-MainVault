@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"551eafa736a246da","type":"file","file":"Info/DB/DB.md","x":-800,"y":-480,"width":400,"height":418},
+		{"id":"47a6df933abb2d2a","x":-340,"y":-720,"width":400,"height":272,"type":"file","file":"Info/DB/MySql.md"},
+		{"id":"2dd8e0cc34d9edba","x":-340,"y":-120,"width":400,"height":272,"type":"file","file":"Info/DB/SQLite.md"},
+		{"id":"9dd67f8255a2e747","x":120,"y":-584,"width":400,"height":272,"type":"file","file":"Info/DB/Access.md"},
+		{"id":"a2b6a61a4d84a815","x":120,"y":-256,"width":400,"height":272,"type":"file","file":"Info/DB/Postgresql.md"}
+	],
+	"edges":[
+		{"id":"ebb579277a5f4d4e","fromNode":"551eafa736a246da","fromSide":"right","toNode":"47a6df933abb2d2a","toSide":"bottom"},
+		{"id":"efaa6073ea5480ec","fromNode":"551eafa736a246da","fromSide":"right","toNode":"2dd8e0cc34d9edba","toSide":"top"},
+		{"id":"bdd9e1ea05b04b24","fromNode":"551eafa736a246da","fromSide":"right","toNode":"9dd67f8255a2e747","toSide":"left"},
+		{"id":"eeadcd688528c351","fromNode":"551eafa736a246da","fromSide":"right","toNode":"a2b6a61a4d84a815","toSide":"left"}
+	]
+}
