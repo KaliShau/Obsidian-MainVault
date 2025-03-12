@@ -48,7 +48,7 @@ ___
 - My ticket and comments for tickets (Экран с заявкой, с коментариями и  создание коментариев; Access: Client, Admin, ASU_staff) [[My ticket and comments for ticket.png]]
 - Update roles (Экран редактирования ролей; Access: Admin) [[Update role.png]]
 - Update users (Экран редактирования пользователей; Access: Admin) [[Update user.png]]
-- Edit my profile (Изменение моего профиля; Access: Client, ASU_staff, Admin) [[Update profile.png]]
+- Edit my profile (Изменение моего профиля; Access: Client, ASU_staff, Admin) [[Work/Diplom 2025/Diplom - Python/Interface/assets/Update profile.png]]
 - Update department (Экран редактирования отделов; Access: ASU_staff, Admin) [[Update department.png]]
 - Update reports (Экран редактирования отчетов; Access: ASU_staff, Admin)
 - My statistics (Моя статистика; Access: Client, ASU_staff, Admin)

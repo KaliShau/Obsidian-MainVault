@@ -12,10 +12,10 @@ ___
 ##### Screens:
 - Sign-up (Регистрация) [[Work/Coursework-of-classmates 2025/Глеб Подолянов/assets/SignIn.png]]
 - Sign-in (Вход) [[Work/Coursework-of-classmates 2025/Глеб Подолянов/assets/SignUp.png]]
-- Create statement (Запись заявления в общую БД) [[Create statement.png]]
+- Create statement (Запись заявления в общую БД) [[Work/Coursework-of-classmates 2025/Глеб Подолянов/assets/Create statement.png]]
 -  Users (Создание, изменение и удалние пользователей)
 - View statement (Форма со всеми записями и поиск записи по фамилии) [[View statements.png]]
-- Example statement (Форма с примером заяления и почтой и инфа которая должна быть указана в заявлении (контактные данные организации) и при нажатии на него должно появляется меню с кнопками: скачать, открыть и печать) [[Example statement.png]] [[Example statements.png]]
+- Example statement (Форма с примером заяления и почтой и инфа которая должна быть указана в заявлении (контактные данные организации) и при нажатии на него должно появляется меню с кнопками: скачать, открыть и печать) [[Work/Coursework-of-classmates 2025/Глеб Подолянов/assets/Example statement.png]] [[Example statements.png]]
 - Add operator [[Add operator.png]]
 - View users [[View users.png]]
 
