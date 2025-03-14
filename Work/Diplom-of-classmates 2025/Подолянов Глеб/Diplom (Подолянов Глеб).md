@@ -17,3 +17,5 @@ ___
 - Update statement [[Update statement.png]]
 - Profile (Профиль) [[Profile.png]]
 - Update profile (Обновление профиля) [[Work/Diplom-of-classmates 2025/Подолянов Глеб/assets/Update profile.png]]
+- All work organization [[All work organizations.png]]
+- Create work [[Create work.png]]

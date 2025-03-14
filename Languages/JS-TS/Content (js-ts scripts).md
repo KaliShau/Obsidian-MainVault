@@ -1,7 +1,7 @@
 
 ___
-##### Packages: [[Languages/JS-TS/Nest js/Packages|Packages]]
-##### Packages: [[Languages/JS-TS/Next js - React js/Packages|Packages]]
+##### Packages Nest js: [[Languages/JS-TS/Nest js/Packages|Packages]]
+##### Packages Next js: [[Languages/JS-TS/Next js - React js/Packages|Packages]]
 
 ##### Main:
 - Prettier: [[Prettier]]
