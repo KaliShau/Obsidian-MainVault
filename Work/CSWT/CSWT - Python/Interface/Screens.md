@@ -8,8 +8,8 @@ ___
 ##### **Navigation screens:**
 
 ###### **Authorization** (Авторизация; Access: Guest):
-- SIgn-in (Экран входа)  [[Work/Diplom 2025/Diplom - Python/Interface/assets/SignIn.png]]
-- Sign-up (Экран регистрации)  [[Work/Diplom 2025/Diplom - Python/Interface/assets/SignUp.png]]
+- SIgn-in (Экран входа)  [[Work/CSWT/CSWT - Python/Interface/assets/SignIn.png]]
+- Sign-up (Экран регистрации)  [[Work/CSWT/CSWT - Python/Interface/assets/SignUp.png]]
 
 ###### **Work** (Работа):
 - Create ticket (Экран создания заявки; Access: Client, Admin, ASU_staff) [[Create ticket.png]]
@@ -24,7 +24,7 @@ ___
 
 ###### **Administration** (Администрирование; Access: Admin):
 - Users (Управление пользователями, навигация и дочернии окна):
-	- All users (Экран с пользователями и кнопка перехода к редактированию) [[Work/Diplom 2025/Diplom - Python/Interface/assets/All users.png]]
+	- All users (Экран с пользователями и кнопка перехода к редактированию) [[Work/CSWT/CSWT - Python/Interface/assets/All users.png]]
 	- Create user  (Экран создания пользователя) [[Create user.png]]
 - Roles (Управление ролями, навигация и дочернии окна):
 	- All roles (Экран с ролями и кнопка перехода к редактированию) [[All roles.png]]
@@ -48,7 +48,7 @@ ___
 - My ticket and comments for tickets (Экран с заявкой, с коментариями и  создание коментариев; Access: Client, Admin, ASU_staff) [[My ticket and comments for ticket.png]]
 - Update roles (Экран редактирования ролей; Access: Admin) [[Update role.png]]
 - Update users (Экран редактирования пользователей; Access: Admin) [[Update user.png]]
-- Edit my profile (Изменение моего профиля; Access: Client, ASU_staff, Admin) [[Work/Diplom 2025/Diplom - Python/Interface/assets/Update profile.png]]
+- Edit my profile (Изменение моего профиля; Access: Client, ASU_staff, Admin) [[Work/CSWT/CSWT - Python/Interface/assets/Update profile.png]]
 - Update department (Экран редактирования отделов; Access: ASU_staff, Admin) [[Update department.png]]
 - Update reports (Экран редактирования отчетов; Access: ASU_staff, Admin)
 - My statistics (Моя статистика; Access: Client, ASU_staff, Admin)

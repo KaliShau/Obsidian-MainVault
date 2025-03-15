@@ -1,10 +1,10 @@
  
 ___
 App: [[Application - Python|Application - Python]]
-Relationships: [[Work/Diplom 2025/Diplom - Python/DB/Relationships]]
+Relationships: [[Relationships]]
 
-ER: [[Work/Diplom 2025/Diplom - Python/DB/ER.svg]]
-![[Work/Diplom 2025/Diplom - Python/DB/ER.svg]]
+ER: [[ER.svg]]
+![[ER.svg]]
 ___
 
 1. **Users (Пользователи):** 
