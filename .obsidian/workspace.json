@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "d164f420a357b421",
+    "type": "split",
+    "children": [
+      {
+        "id": "5148a793d01f95c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a69cb06bfd291b50",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1c72c5d93f3e2650",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a153a590e0d6dc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb5d8a45b1ea2841",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "be569ef2f5ad8ea5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "af5caa70b2aae9a5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0d808bf0a49dac49",
+    "type": "split",
+    "children": [
+      {
+        "id": "195f9d0276ae9408",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4079e2f92c858ab5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "d7d5cf9820be10ce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Script Git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Script Git"
+            }
+          },
+          {
+            "id": "c54db0f562f38d5d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e9bf528230479fed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Script Git.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Script Git"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false
+    }
+  },
+  "active": "a69cb06bfd291b50",
+  "lastOpenFiles": [
+    "Diplom/DB/Relationships.md",
+    "Diplom/DB/Entities and attributes.md",
+    "Diplom/DB",
+    "Diplom/Diploma topic.md",
+    "Diplom",
+    "Script Git.md",
+    "Technologies/Git/Scripts/Rename commits.md",
+    "Technologies/Git/Content.md",
+    "Technologies/Git/Scripts",
+    "Info/Content.md",
+    "Technologies/Git",
+    "Technologies",
+    "Info/CMS/Joomla/Joomla.md",
+    "Info/DB/Postgresql.md",
+    "Info/DB/MySql.md",
+    "Info/DB/DB.md",
+    "Info/DB/DataBases.canvas",
+    "Info/DB/Access.md",
+    "Settings/DB Arch/MariaDB.md",
+    "Info/Git",
+    "Languages/JS-TS/Styles/Scroll bar.md",
+    "Languages/JS-TS/Next js - React js/Higher-Order Componen.md",
+    "Languages/JS-TS/Next js - React js/Infinite scroll with react query.md",
+    "Languages/JS-TS/Next js - React js/Api helpers.md",
+    "Languages/JS-TS/Next js - React js/Axios interseprots.md",
+    "Languages/JS-TS/Next js - React js/Classnames.md",
+    "Languages/JS-TS/Next js - React js/Config routes example.md",
+    "Languages/JS-TS/Next js - React js/Middleware.md",
+    "Languages/JS-TS/Next js - React js/Next js config.md",
+    "Languages/JS-TS/Next js - React js/Packages.md",
+    "Languages/JS-TS/Content (js-ts scripts).md",
+    "Languages/JS-TS/JS.md",
+    "README.md",
+    "Work/Coursework-of-classmates 2025/Березкин Артем/assets/Create and view suppliers.png",
+    "Work/Coursework-of-classmates 2025/Березкин Артем/assets/SignUp.png",
+    "Projects/Chainx/Client/Interface/Sign in.png",
+    "Projects/Chainx/Client/Interface/Side bar if screen < 1200px.png",
+    "Projects/Chainx/Client/Interface/Side bar.png",
+    "Projects/Chainx/Client/Interface/Posts.png",
+    "Projects/Chainx/Client/Interface/About us.png",
+    "Settings/Arch",
+    "Work/CSWT/CSWT - Python/Interface/assets/Update user.png",
+    "Work/CSWT/CSWT - Python/Interface/assets/Update ticket.png",
+    "Work/CSWT/CSWT - Python/Interface/assets/Update profile.png",
+    "Languages/Python/Django",
+    "Languages/Python/PyQT6",
+    "Projects/ArticleFlow",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas"
+  ]
+}

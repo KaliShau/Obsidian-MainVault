@@ -1,0 +1,10 @@
+{
+<<<<<<< HEAD
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "uriCallbacks": false,
+  "propertiesInDocument": "visible"
+=======
+  "promptDelete": false
+>>>>>>> db25af0 (Create vault)
+}
