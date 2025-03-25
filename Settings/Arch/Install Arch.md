@@ -14,19 +14,19 @@ ___
 	- Далее выбираем тип разметки диска. На EFI берем gpt
 	- Теперь размечаем диск:
 		-  Выделяем 256M для загрузочного раздела и меняем тип на EFI system
-		- Остальное место отдаем под основной раздел (type Linux filesystem) или разделяем его на нужные вам части
+		- Остальное место отдаем под основной раздел (type Linux filesystem) или разделяем его на нужные вам части и нажимаем write
 	- Форматируем разделы:
 		- Форматируем загрузочный раздел: mkfs.vfat /dev/загрузочный раздел
 		- Форматируем основной раздел: mkfs.ext4 /dev/основной раздел
 	- Монтируем диски:
 		- Монтируем основной раздел: mount /dev/основной раздел /mnt
 		- Монтируем загрузочный раздел: сначала создаем директорию mkdir -p /mnt/boot/efi потом монтируем  mount /dev/загрузочный раздел /mnt/boot/efi
-4. Ставим пакеты: pacstrap /mnt base base-devel linux linux-firmware linux-header nano bash-completion grub efibootmgr networkmanager
+4. Ставим пакеты: pacstrap /mnt base base-devel linux linux-firmware linux-headers nano bash-completion grub efibootmgr networkmanager
 	- base - базовая система
 	- base-devel - утилиты для сборки программ
 	- linux - ядро
 	- linux-firmware - прошивки для линукс
-	- linux-header - хедеры 
+	- linux-headers - хедеры 
 	- nano - текстовый редактор
 	- bash-completion - автодополнение для команд bash
 	- grub -загрузчик
@@ -43,9 +43,11 @@ ___
 	- Меняем /etc/sudoers и добавляем себя рядом с root и такими же правами
 11. Локализация:
 	- Заходим в /etc/locale.gen
-	- раскоментируем en_ES и ru_RU
+	- раскоментируем en_US и ru_RU
 12. Ставим стандартную локализацию: /etc/locale.conf и пишем LANG="en_US.UTF-8" или другую локаль
 13. Генерация локализаций: locale-gen 
 14. Ставим загрузчик: grub-install /dev/диск (/dev/sda) и grub-mkconfig -o /boot/grub/grub.cfg
-15. Размонтировка разделов: umount -R /mnt
+15. Выход из системы: exit и размонтировка разделов: umount -R /mnt
 16. reboot
+
+Driver: https://us.download.nvidia.com/XFree86/Linux-x86_64/570.124.04/NVIDIA-Linux-x86_64-570.124.04.run
