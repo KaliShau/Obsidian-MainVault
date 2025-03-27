@@ -29,3 +29,7 @@ ___
 - Config routes example: [[Config routes example]]
 - Next js config: [[Next js config]]
 - Axios: [[Axios interseprots]]
+
+
+##### Packaages:
+- pm2: [[pm2]]
