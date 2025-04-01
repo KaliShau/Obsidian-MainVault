@@ -1,6 +1,7 @@
 
 ___
-##### Code:
+Можно использовать если программа маленькая и имеет мало взаимодействий с БД
+##### Менеджер БД:
 ```C#
 using Npgsql; // Подключаем библиотеку
 using System;
@@ -76,7 +77,7 @@ namespace PRMS
     }
 }
 ```
-##### Connection:
+##### Соеденение:
 ```C#
 public void connection()
 {
@@ -89,7 +90,7 @@ public void connection()
 	}
 }
 ```
-##### SQL Request:
+##### SQL  Запрос:
 ```C#
 public DataTable login(string Login, string Pass)
 {

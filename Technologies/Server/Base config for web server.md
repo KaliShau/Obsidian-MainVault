@@ -19,6 +19,7 @@ sudo apt install ufw
 
 sudo ufw allow ssh # Разрешения доступа по ssh
 sudo ufw allow http # Разрешения доступа по http
+sudo ufw allow https # Разрешения доступа по https
 
 sudo ufw enable
 ```
