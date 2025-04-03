@@ -42,7 +42,7 @@ var formManager = provider.GetRequiredService<FormManager>();
 formManager.OpenForm<HomeForm>(); // Стартовая форма
 Application.Run(provider.GetRequiredService<MainForm>());
 ```
-### Автоматическое добавление
+### Автоматическое добавление:
 ```C#
 // Program.cs
 var assembly = Assembly.GetExecutingAssembly();
@@ -65,7 +65,7 @@ assembly.GetTypes()
     .ToList()
     .ForEach(type => services.AddTransient(type));
 ```
-### Менеджер форма:
+### Менеджер форм:
 ```C#
 public class FormManager
 {
